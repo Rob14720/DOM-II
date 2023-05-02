@@ -34,5 +34,15 @@ btns[0].addEventListener('click', (event) => {
         event.target.textContent = 'hooray :)';
         });
 
+        const rmv = document.querySelectorAll('p')
+        console.log(rmv)
+        window.addEventListener('keydown', (event) => {
+            if (event.key == 0){
+                document.body.innerHTML = ''
+            }
+            })
+        
+       
+
 
 
